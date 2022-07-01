@@ -1,12 +1,13 @@
 # Site
 name: "Dan's IT Cookbook"
-description: ''
+description: 'recipes for IT tasks'
 logo: 'assets/images/cookbook-logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
-disqus: 'demowebsite'
+url: 'https://www.dans-it-cookbook.com'
+# disqus: 'demowebsite'
 email: 'dan@dans-it-coobook.com'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+# mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
 include: ["_pages"]
 permalink: /:title/
@@ -21,11 +22,11 @@ plugins:
 authors:
     dan:
       name:           Dan
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Dan!"
+      site:           https://www.reserchonknowing.com
+      avatar:         assets/images/dan.jpg
+      bio:            "Hi, I am Dan! I hope you enjoy thes recipes to perform IT tasks."
       email:          dan@dans-it-cookbook.com
-      twitter:        https://twitter.com/wowthemesnet
+      twitter:        https://twitter.com/Dan_IT_Cookbook
 
  
 # Defaults
@@ -37,7 +38,7 @@ defaults:
     values:
       layout: post
       author: dan
-      avatar: /assets/images/avatar1.jpg
+      avatar: assets/images/dan.jpg
       
   # all pages
   - scope:
